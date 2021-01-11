@@ -1,3 +1,4 @@
+<?php
 function processMessage($update) {
     if($update["result"]["action"] == "sayHello"){
         sendMessage(array(
